@@ -1,0 +1,227 @@
+body {
+    /* background-color: rgb(43, 226, 226); */
+    background: linear-gradient(45deg, blue, yellow, orange, pink, purple);
+    padding: 0px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+}
+
+#Projects {
+    /* display: flex;
+  align-items: center;
+  flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.as {
+    background: linear-gradient(45deg, yellow, orange, pink, purple, blue);
+    /* margin: 10px auto; */
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 2px;
+    box-shadow: 0 0 10px 32px rgb(rgb(204, 0, 255));
+    transition: 0.5s;
+}
+
+.as:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 10px rgba(163, 120, 219, 0.5);
+}
+
+.obj {
+    text-decoration: underline;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    border-radius: 5px;
+}
+
+.project {
+    text-decoration: underline;
+    background: linear-gradient(45deg,
+            blue,
+            rgb(111, 228, 160),
+            orange,
+            pink,
+            purple);
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.abt1 {
+    padding: 24px;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+}
+
+.abt {
+    display: flex;
+    min-height: 20vh;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+
+    padding: 20px;
+}
+
+#edu {
+    text-decoration: underline;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#skl {
+    display: grid;
+    text-decoration: underline;
+    background: linear-gradient(45deg, orange, pink, purple, blue);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: rgb(43, 226, 226);
+}
+
+#img {
+    /* justify-content: right; */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* display: flex; */
+}
+
+.table {
+    border: 5px;
+    text-align: left;
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    margin: 10px;
+    padding: 10px;
+}
+
+.akh:hover {
+    transform: scale(1.05);
+    text-shadow: 10px 10px 20px rgba(238, 242, 243, 0.938);
+}
+
+.akh {
+    padding: 40px;
+    transition: 0.5s;
+}
+
+.skills {
+    display: grid;
+    grid-template-rows: 200px;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    grid-template-columns: 32% 32% 32%;
+    /* background-color: rgb(65, 235, 235); */
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+#contact {
+    margin: 0px;
+    align-items: left;
+    text-decoration: underline;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    border-radius: 5px;
+}
+
+#form {
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 2px;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, blue, orange, pink, purple);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(1, 10, 10);
+}
+
+.a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 10px rgba(140, 81, 207, 0.719);
+}
+
+.skill {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 10px rgba(140, 81, 207, 0.719);
+}
+
+.form {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: left; */
+    border: 0px solid black;
+    padding: 10px;
+}
+
+.submit {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.link {
+    /* display: grid;
+  grid-template-columns: 5; */
+    text-decoration: none;
+    margin-inline: 10px;
+    color: rgb(196, 255, 252);
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        margin: 2.5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        width: 400px;
+    }
+
+    #img {
+        width: 200px;
+        height: 200px;
+    }
+}

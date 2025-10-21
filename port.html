@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Portfolio.css" />
+</head>
+
+<body>
+    <header>
+        <div style="
+          text-align: center;
+          background-color: rgb(224, 96, 190);
+          color: rgb(12, 0, 0);
+        ">
+            <h1>My Portfolio</h1>
+            <h2>Donagani Sathwika</h2>
+
+            <div class="port">
+                <a class="link" href="#abt1">About</a>
+                <a class="link" href="#Projects">Projects</a>
+                <a class="link" href="#skl">Skills</a>
+                <a class="link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="section">
+                <div>
+                    <h2 class="abt1"><u>About</u></h2>
+                    <h1 class="Sathwika">
+                        Hello <br /><strong>I'm DONAGANI SATHWIKA</strong>
+                    </h1>
+                    <p class="abt">
+                        Passionate CSD student and Aspiring Fullstack Developer . Skilled
+                        in frontend technologies and curios about backend technologies
+                    </p>
+                </div>
+
+                <img id="img" src="./34e14aaa-cdb1-4f68-863c-fd70b4a01e63.jpg" alt="Sathwika" />
+            </div>
+        </section>
+        <hr />
+
+        <h2 class="obj">Objectives</h2>
+        <p>A challenging role in fullstack developer to enhance my skills</p>
+        <hr />
+        <h2 class="project">Project</h2>
+        <div id="Projects">
+            <section class="as">
+                <h3>
+                    Semiconductor Wafer Microfabrication Process Optimization
+                </h3>
+                <p>
+                Developed a machine learning framework to optimize semiconductor wafer microfabrication, predicting and reducing defects
+                and process deviations. Performed EDA on key parameters and implemented a Random Forest Classifier to improve yield
+                forecasting and production efficiency. Enabled data-driven decision-making for enhanced IC manufacturing performance.
+                </p>
+            </section>
+
+            <section class="as">
+                <h3>Electricity Billing System</h3>
+                <p>Developed a comprehensive Electricity Billing System using Java, enabling efficient management of customer data, billing
+                calculations, and payment processing. Implemented features for generating detailed bills, tracking payments, and
+                managing customer accounts.</p>
+            </section>
+
+            <section class="as">
+                <h3>
+                    MediScrape:Disease Symptom Extractor
+                </h3>
+                <p>
+                A simple, accessible web application that extracts disease symptoms from medical articles using web scraping and NLP techniques.
+                Built with Python, Flask, BeautifulSoup, and NLTK, it provides users with
+                </p>
+            </section>
+        </div>
+
+        <hr />
+    </main>
+    <h2 id="edu">Education</h2>
+    <table class="table">
+        <tr>
+            <th>Institution</th>
+            <th>Course</th>
+            <th>Year</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Vaagdevi College of Engineering</td>
+            <td>CSE(Data Science)</td>
+            <td>2025</td>
+            <td>8.4 CGPA</td>
+        </tr>
+        <tr>
+            <td>SR Junior College</td>
+            <td>Intermediate</td>
+            <td>2021</td>
+            <td>91%</td>
+        </tr>
+        <tr>
+            <td>Ekashila High School</td>
+            <td>CBSE</td>
+            <td>2019</td>
+            <td>6.7 CGPA</td>
+        </tr>
+        <hr />
+    </table>
+
+    <h2 id="skl">Skills</h2>
+    <div class="skills">
+        <div class="skill">
+            <h3>Front-end</h3>
+            <a class="a" href="https://www.w3schools.com/Html/">Html</a>
+            <a class="a" href="https://www.w3schools.com/css/default.asp">Css</a>
+            <a class="a" href="https://www.w3schools.com/js/default.asp">JavaScript</a>
+        </div>
+        <div class="skill">
+            <h3>Back-end</h3>
+            <a class="a" href="https://www.w3schools.com/Html/">Node.js</a>
+            <a class="a" href="https://www.w3schools.com/css/default.asp">MySql</a>
+            <a class="a" href="https://www.w3schools.com/js/default.asp">Express.js</a>
+        </div>
+        <div class="skill">
+            <h3>Other technologies</h3>
+            <a class="a" href="https://www.w3schools.com/Html/">Python</a>
+            <a class="a" href="https://www.w3schools.com/css/default.asp">Ai & ML</a>
+            <a class="a" href="https://www.w3schools.com/js/default.asp">Java</a>
+        </div>
+    </div>
+    <hr />
+    <div class="form">
+        <div style="display: flex; justify-content: space-evenly">
+            <div>
+                <h2 id="contact">Contact</h2>
+                <form id="form">
+                    <label for="mk"> Name</label>
+                    <input type="text" id="mk" placeholder="enter your name" required />
+
+                    <label for="password">Mail</label>
+                    <input type="mail" id="password" placeholder="enter your email" />
+
+                    <label for="mail">Send Message</label>
+                    <input type="text" id="mail" placeholder="send message" />
+
+                    <button class="submit">submit</button>
+                </form>
+            </div>
+            <div>
+                <h3>
+                    <i class="fa-solid fa-envelope"></i> Email:
+                    <strong>sathwikadonagani@gmail.com</strong>
+                </h3>
+                <h3>
+                    <i class="fa-brands fa-square-whatsapp"></i> Whatsapp:
+                    <strong>8466915105</strong>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; background-color: rgb(3, 70, 70); color: white">
+        &copy; my portfolio. All rights Reserved
+    </footer>
+</body>
+
+</html>

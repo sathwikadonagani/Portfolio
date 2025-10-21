@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(90, 179, 239);
+    font-style: normal;
+}
+
+a {
+    background-color: rgb(17, 194, 191);
+    width: 85px;
+    color: rgb(228, 240, 241);
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+#education {
+    display: grid;
+    align-items: left;
+    flex-direction: row;
+    justify-content: left;
+    margin: 10px;
+}
+
+#P {
+    display: grid;
+    background-color: hwb(193 58% 9%);
+    grid-template-columns: 30% 30% 30%;
+
+}
+
+#pro {
+    border: 10px;
+    border: radius 5px;
+    border-color: rgb(147, 197, 243);
+    border-style: solid;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(11, 211, 214);
+    box-shadow: inset 0 0 10px rgb(rgb(177, 216, 235), rgb(212, 136, 206), rgb(186, 113, 170));
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 5px;
+    border: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 20px;
+    background-color: rgb(77, 97, 224);
+    box-shadow: inset 0 0 10px rgb(rgb(122, 169, 209), rgb(212, 136, 206), rgb(186, 113, 170));
+}
+
+.s {
+    border: 10px;
+    border: radius 5px;
+    border-color: rgb(160, 218, 239);
+    border-style: solid;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(179, 218, 234);
+    box-shadow: inset 0 0 10px rgb(rgb(209, 122, 193), rgb(212, 136, 206), rgb(186, 113, 170));
+}
+
+.sk {
+    display: grid;
+    background-color: rgb(79, 168, 212);
+    grid-template-columns: 30% 30% 30%;
+}
+
+.Cert {
+    display: grid;
+    background-color: rgb(77, 160, 223);
+    grid-template-columns: 30% 30% 30%;
+
+}
+
+.intern {
+    display: grid;
+    background-color: rgb(42, 230, 230);
+    border: 2px;
+    padding: 15px;
+
+}
+
+.c {
+    border: 10px;
+    border: radius 5px;
+    border-color: rgb(29, 217, 235);
+    border-style: solid;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(83, 171, 201);
+}
+
+a:hover {
+    background-color: rgb(16, 17, 16);
+}
+
+button {
+    background-color: rgb(234, 220, 233);
+    color: rgba(82, 141, 163, 0.21);
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 50px 50px 50px 50px;
+    color: black;
+}
+
+#co {
+    display: grid;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+form {
+    background-color: rgb(29, 218, 247);
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    ;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(155, 143, 250);
+    text-align: center;
+    color: black;
+}
+
+.let {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+}
